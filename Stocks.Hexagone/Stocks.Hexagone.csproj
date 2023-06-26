@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UseCases\TypeArticles\" />
+    <None Remove="UseCases\TypeArticles\Queries\" />
+    <None Remove="UseCases\PurchaseOrder\Queries\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UseCases\TypeArticles\" />
+    <Folder Include="UseCases\TypeArticles\Queries\" />
+    <Folder Include="UseCases\PurchaseOrder\Queries\" />
+  </ItemGroup>
+</Project>
